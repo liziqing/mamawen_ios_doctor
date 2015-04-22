@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>province</key>
+	<array>
+		<string>北京市</string>
+	</array>
+	<key>北京市</key>
+	<array>
+		<string>北京协和医院(东院) </string>
+		<string>北京军区总医院附属八一儿童医院</string>
+		<string></string>
+	</array>
+	<key>上海市</key>
+	<array>
+		<string>上海中医药大学附属岳阳中西医结合医院</string>
+	</array>
+</dict>
+</plist>

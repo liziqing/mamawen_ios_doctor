@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="69" id="KGk-i7-Jjw" customClass="InformationCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wf4-5H-uUZ">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcY-eo-oML">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="no1-eh-PXR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="no1-eh-PXR"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="no1-eh-PXR"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tU5-4P-spr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="oNq-wJ-7Bh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="oNq-wJ-7Bh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="oNq-wJ-7Bh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tU5-4P-spr" secondAttribute="bottom" id="D3V-qV-tnt"/>
+                    <constraint firstAttribute="trailing" secondItem="tU5-4P-spr" secondAttribute="trailing" id="D5K-5h-13O"/>
+                    <constraint firstItem="tU5-4P-spr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Fdc-XZ-Khg"/>
+                    <constraint firstItem="tcY-eo-oML" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="KnG-A7-MeV"/>
+                    <constraint firstAttribute="trailing" secondItem="tcY-eo-oML" secondAttribute="trailing" constant="100" id="N9M-LL-joM"/>
+                    <constraint firstAttribute="trailing" secondItem="wf4-5H-uUZ" secondAttribute="trailing" id="QFS-os-BAa"/>
+                    <constraint firstItem="wf4-5H-uUZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ztc-xe-ofx"/>
+                    <constraint firstAttribute="bottom" secondItem="wf4-5H-uUZ" secondAttribute="bottom" id="l4b-Uc-cYv"/>
+                    <constraint firstItem="wf4-5H-uUZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="u5s-px-fO9"/>
+                    <constraint firstAttribute="centerY" secondItem="tcY-eo-oML" secondAttribute="centerY" id="vPK-GO-xFE"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="wf4-5H-uUZ"/>
+                        <exclude reference="tcY-eo-oML"/>
+                        <exclude reference="tU5-4P-spr"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="QFS-os-BAa"/>
+                        <exclude reference="Ztc-xe-ofx"/>
+                        <exclude reference="l4b-Uc-cYv"/>
+                        <exclude reference="u5s-px-fO9"/>
+                        <exclude reference="KnG-A7-MeV"/>
+                        <exclude reference="N9M-LL-joM"/>
+                        <exclude reference="vPK-GO-xFE"/>
+                        <exclude reference="D3V-qV-tnt"/>
+                        <exclude reference="D5K-5h-13O"/>
+                        <exclude reference="Fdc-XZ-Khg"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="wf4-5H-uUZ"/>
+                        <include reference="tcY-eo-oML"/>
+                        <include reference="tU5-4P-spr"/>
+                    </mask>
+                    <mask key="constraints">
+                        <include reference="QFS-os-BAa"/>
+                        <include reference="Ztc-xe-ofx"/>
+                        <include reference="l4b-Uc-cYv"/>
+                        <include reference="u5s-px-fO9"/>
+                        <include reference="KnG-A7-MeV"/>
+                        <include reference="N9M-LL-joM"/>
+                        <include reference="vPK-GO-xFE"/>
+                        <include reference="D3V-qV-tnt"/>
+                        <include reference="D5K-5h-13O"/>
+                        <include reference="Fdc-XZ-Khg"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="line" destination="tU5-4P-spr" id="JS5-UB-vYe"/>
+                <outlet property="titleLable" destination="tcY-eo-oML" id="os1-ky-Gk1"/>
+            </connections>
+            <point key="canvasLocation" x="205" y="229.5"/>
+        </tableViewCell>
+    </objects>
+</document>
